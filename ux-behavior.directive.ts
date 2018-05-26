@@ -11,12 +11,7 @@ export class UxBehaviorDirective implements OnInit {
 		{ type: 'mouseover', kind: 'native', source: 'mouse' },
 		{ type: 'mouseout', kind: 'native', source: 'mouse' },
 		{ type: 'keyup', kind: 'native', source: 'keyboard' },
-		// only mouse and keyboard events are currently hooked up
-		// included to demonstrate the additional possible events 
-		{ type: 'scroll', kind: 'native', source: 'window' },
-		// no proprietary (custom) events are currently hooked up
-		// included to demonstrate the additional possible events 
-		{ type: 'visible', kind: 'proprietary', source: 'window' }
+		{ type: 'kedown', kind: 'native', source: 'keyboard' }
 	];
 
 	// add interfaces for each vendor
