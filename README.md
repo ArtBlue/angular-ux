@@ -23,8 +23,10 @@ import { UxBehaviorDirective } from './directives/ux-behavior/ux-behavior.direct
 
 `````html
 <button appUxBehavior 
-    uxType="click" 
-    uxName="MyPage:MyButton1">
+    uxAction="click" 
+    uxLabel="MyPage:MyButton1"
+    uxCategory="My Category Group"
+    >
         My Button
 </button>
 `````
